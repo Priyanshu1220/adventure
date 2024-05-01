@@ -1,0 +1,330 @@
+.circle{
+    
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to top left, #024e57, #0bc5fe);
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    z-index: 10;
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background-color: #F5F5F5;
+}
+.background-img{
+    background-image: url(img/services-bg.jpg);
+    height: 620px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: mymove 9s infinite;
+}
+@keyframes mymove{
+    50% {background-position: top ;}
+}
+.container{
+    width: 1270px;
+    margin: 0 auto;
+}
+
+.h-party{
+    font-family: "Titan One", sans-serif;
+    /* text-align: center; */
+    color: #096689;
+    padding-top: 0px;
+    font-size: 35px;
+    display: inline-block;
+    cursor: pointer;
+}
+.h-party{
+    a{
+        text-decoration: none;
+        color: #096689;
+    }
+}
+.h-party{
+    span{
+        font-size: 45px;
+    }
+}
+.unorder-list{
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding-top: 27px;
+  float: right;
+  cursor: pointer;
+  
+
+}
+.list{
+    font-family: "Titan One", sans-serif;
+    list-style: none; 
+    padding: 30px;
+    color: #096689;
+    font-size: 18px;
+    padding: 5px 20px 5px 30px
+    
+}
+.list{
+    a{
+        text-decoration: none;
+        color: #096689;
+    }
+}
+.list:hover{
+    background-color: transparent;
+    border: 4px solid  #046a0b;
+   
+}
+.list:hover{
+    a{
+        color: #000;
+    }
+}
+.hallowen{
+    h1{
+        font-family: "Titan One", sans-serif;
+        text-align: center;
+        padding-top: 60px;
+        font-size: 30px;
+        color: #096689;
+    }
+}
+
+.buy{
+    h1{
+      
+        font-size: 45px;
+        /* letter-spacing: 2px; */
+        font-family: "Titan One", sans-serif;
+        text-align: center;
+        color: #096689;
+        padding-top: 40px;
+     
+       
+        
+
+    }
+}
+.who-are{
+    font-size: 40px;
+    font-family: "Titan One", sans-serif;
+    text-align: center;
+    color: #084e67;
+    transform: translate(14px,142px);
+    cursor: pointer;
+
+}
+.time{
+    
+        text-align: center;
+        font-family:   "Titan One", sans-serif;
+        color: #084e67;
+        padding-top: 50px;
+        position: relative;
+        cursor: pointer;
+       
+    
+}
+.time-heading::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 4px;
+    top: 98px;
+    left: 720px;
+    width: 102px;
+    background-color: green;
+    cursor: pointer;
+}
+.adv-img{
+    width: 1270px;
+    margin: 0 auto;
+    margin-top:50px; ;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.camping{
+    overflow: hidden;
+}
+.camping{
+    img{
+        width: 500px;
+        /* overflow: hidden; */
+       
+    }
+}
+.camping:hover{
+    img{
+        transition: all ease 0.3s;
+        transform: scale(1.1);
+       
+    }
+}
+.camping{
+    h1{
+        font-family: "Titan One", sans-serif;
+        text-align: center;
+        color: #096689;
+        padding-top: 20px;
+    }
+}
+.hiking{
+    overflow: hidden;
+}
+.hiking{
+    img{
+        width: 500px;
+    }
+}
+.hiking{
+    h1{
+        font-family: "Titan One", sans-serif;
+        text-align: center;
+        color: #096689;
+        padding-top: 20px;
+    }
+}
+.hiking:hover{
+    img{
+        transition: all ease 0.3s;
+        transform: scale(1.1);
+       
+    }
+}
+.adventure-img{
+    width: 1270px;
+    margin: 0 auto;
+    margin-top:50px; ;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.rafting{
+    overflow: hidden;
+}
+.rafting{
+    img{
+        width: 500px;
+    }
+}
+.rafting{
+    h1{
+        font-family: "Titan One", sans-serif;
+        text-align: center;
+        color: #096689;
+        padding-top: 20px;
+    }
+}
+.rafting:hover{
+    img{
+        transition: all ease 0.3s;
+        transform: scale(1.1);
+       
+    }
+}
+.skiing{
+    overflow: hidden;
+}
+.skiing{
+    img{
+        width: 500px;
+    }
+}
+.skiing{
+    h1{
+        font-family: "Titan One", sans-serif;
+        text-align: center;
+        color: #096689;
+        padding-top: 20px;
+    }
+}
+.skiing:hover{
+    img{
+        transition: all ease 0.3s;
+        transform: scale(1.1);
+       
+    }
+}
+.section-2{
+    width: 1270px;
+    margin: 0 auto;
+    padding-top: 99px;
+}
+
+
+
+.outdoor-adv{
+    font-family: "Titan One", sans-serif;
+    /* text-align: center; */
+    color: #096689;
+    padding-top: 20px;   
+   
+}
+.outdoor-adv{
+    h1{
+        cursor: pointer;
+    }
+}
+.border{
+    border-bottom: 4px solid #2c5a0a;
+    width: 110px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.why-outdoor{
+    display: flex;
+    justify-content: space-between;
+}
+.costumer{
+    font-family: "Titan One", sans-serif;
+    padding: 20px 0px 20px 0px;
+    line-height: 25px;
+    color: #096689; 
+}
+
+.adv-list{
+    padding-top: 14px;
+}
+.the-costumer{
+    font-family: "Titan One", sans-serif;
+    padding: 20px 0px 20px 0px;
+    line-height: 25px;
+    color: #096689; 
+   
+}
+.what-you-get{
+    font-family: "Titan One", sans-serif;
+    /* text-align: center; */
+    color: #096689;
+    padding-top: 20px;  
+}
+.what-you-get{
+    h1{
+        cursor: pointer;
+    }
+}
+.footer{
+    background-color: #a6e0dc;
+    height: 150px;margin-top: 50px;
+}
+.footer-text{
+    transform: translate(10px, 35px);
+    text-align: center;
+    font-family: "Titan One", sans-serif;
+    color: #096689;
+    line-height: 40px;
+   
+}
